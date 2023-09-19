@@ -8,13 +8,16 @@ let salaries = {
   
     "Pete": 300,
   
-    "Mary": 250
+    "Mary": true,
+
+    "Nick": 'test'
   
   };
   
   function sumSalaries(salariesObj){
       let sum = 0
       for(let salary of Object.values(salariesObj)){
+          if(typeof salary == "number")              //no info in task, but I added check if object values can be added as numbers
           sum+=salary
       }
       return sum
