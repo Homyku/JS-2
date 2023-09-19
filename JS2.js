@@ -1,4 +1,4 @@
-//Prototypes
+//PROTOTYPES
 //task 1
 //1.Use __proto__ to assign prototypes in a way that any property lookup will follow the path: pockets → bed → table → head. 
 //For instance, pockets.pen should be 3 (found in table), and bed.glasses should be 1 (found in head).
@@ -82,7 +82,7 @@ let animal = {
   
   rabbit.eat();
 
-//____________________________________________________________
+//_________________________________________________________________________________________________________________________________________________
   //CLASSES
 
   //rewrite Clock written in functional style in the class syntax
@@ -125,7 +125,7 @@ let animal = {
   const clock = new Clock({ template: 'h:m:s' });
   //clock.start();
   
-  //_________________________________________
+  //_______________________________________________________________________________________________________________________________
   //OBJECTS
   //task 1
   //Write a function count(obj) that returns the number of properties in the object:
@@ -168,8 +168,8 @@ function sumSalaries(salariesObj){
 }
 //console.log( sumSalaries(salaries) ); // 650
 
-//_____________________________________________
-//Destructing assignment
+//___________________________________________________________________________________________________________________________________
+//DESTRUCTING ASSIGNMENT
 //task 1
 
 let user1 = {
@@ -192,8 +192,8 @@ let { name, years: age, isAdmin = false} = user1
 //console.log( age ); // 30
 //console.log( isAdmin ); // false
 
-//_____________________________________________
-//Map and Set
+//___________________________________________________________________________________________________________________________________
+//MAP AND SET
 //task 1
 function unique(arr) {
 
